@@ -45,3 +45,8 @@ $
 - The deduction rule is a fundamental principle in propositional logic that allows for deriving conclusions from given premises.  
 - Deduction works when both values being true lead to a true statement.  
 - Quantifier deductions also exist, but they cannot be proven with a truth table.  
+## Theorems
+* logically equivalent to its contrapositive: $P \implies Q \equiv \neg Q \implies \neg P\text{.}$
+* De Morgan’s Laws: $\neg(P \wedge Q) \equiv \neg P \vee \neg Q$ and $\neg(P \vee Q) \equiv \neg P \wedge \neg Q\text{.}$
+* Implications are Disjunctions: $P \implies Q \equiv \neg P \vee Q\text{.}$
+* Negation of an Implication: $\neg(P \implies Q) \equiv P \wedge \neg Q\text{.}$
